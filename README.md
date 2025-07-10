@@ -11,3 +11,7 @@ Estou aplicando na prática os conhecimentos adquiridos até agora como parte da
 🔗 [01 - Minha primeira tentativa de criar um portfólio](https://robsonbernardino.github.io/portifolio-html-css/001-meu-portfolio/)
 
 🔗 [02 - Meu primeiro projeto feito sozinho em HTML/CSS](https://robsonbernardino.github.io/portifolio-html-css/002-curiosidades-do-espa%C3%A7o/index.html)
+
+🔗 [03 - Meu segundo projeto feito sozinho em HTML/CSS](https://robsonbernardino.github.io/portifolio-html-css/003-cordel-moderno/index.html
+)
+
