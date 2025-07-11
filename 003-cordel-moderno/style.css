@@ -1,74 +1,79 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
-:root{
+:root {
     --fonte-titulo: "Passion One", sans-serif;
     --fonte-padrao: "Sriracha", cursive;
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     font-size: 1em;
 }
-html, body{
+
+html, body {
     min-height: 100vh;
     background-color: darkgray;
 }
-header{
+
+header {
     background-color: black;
     color: white;
     text-align: center;
-
 }
-header > h1{
+
+header > h1 {
     font-family: var(--fonte-titulo);
     font-variant: small-caps;
     font-size: 10vw;
     padding-top: 50px;
 }
+
 header > p {
     padding-bottom: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
-section{
+
+section {
     padding-bottom: 10vh;
     line-height: 2em;
     font-family: var(--fonte-padrao);
     font-size: 3.5vw;
     padding-top: 10vh;
     padding-left: 4vh;
-    
 }
-section > p{
+
+section > p {
     padding-bottom: 2em;
     text-shadow: 1px 1px 0px #00000060;
-
 }
-section.normal{
+
+section.normal {
     background-color: white;
     color: black;
 }
-section.imagem{ 
+
+section.imagem {
     background-color: rgb(0, 0, 0);
     color: white;
-    background-position: right, center;
+    background-position: center;
     background-size: cover;
-    background-attachment: fixed;
-
+    background-attachment: fixed; /* efeito para desktop */
 }
-section.imagem > p{
+
+section.imagem > p {
     background-color: rgba(0, 0, 0, 0.479);
-    display: inline-block; /*configura o backgrounk para ocupar somnte o redor do parágrafo*/
+    display: inline-block;
     padding: 10px;
 }
-section#img1{
+
+section#img1 {
     background-image: url(imagens/background001.jpg);
-   
 }
-section#img2{
+
+section#img2 {
     background-image: url(imagens/background002.jpg);
-   
 }
 
 header a, footer a {
@@ -76,11 +81,21 @@ header a, footer a {
     text-decoration: none;
     font-weight: bold;
 }
-header a:hover, footer a:hover{
+
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
-footer{
+
+footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;}
+    padding: 10px;
+}
+
+/* 🔽 Correção para mobile: remove o fixed no fundo */
+@media (max-width: 768px) {
+    section.imagem {
+        background-attachment: scroll;
+    }
+}
