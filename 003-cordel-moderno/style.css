@@ -1,98 +1,86 @@
-@charset "pt-br";
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
 :root{
     --fonte-titulo: "Passion One", sans-serif;
     --fonte-padrao: "Sriracha", cursive;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
 header{
     background-color: black;
     color: white;
     text-align: center;
+
 }
 header > h1{
     font-family: var(--fonte-titulo);
-    font-size: 6em;
     font-variant: small-caps;
-    margin: auto;  
+    font-size: 10vw;
     padding-top: 50px;
 }
 header > p {
     padding-bottom: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
-header a{
+section{
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-family: var(--fonte-padrao);
+    font-size: 3.5vw;
+    padding-top: 10vh;
+    padding-left: 4vh;
+    
+}
+section > p{
+    padding-bottom: 2em;
+    text-shadow: 1px 1px 0px #00000060;
+
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{ 
+    background-color: rgb(0, 0, 0);
+    color: white;
+    background-position: right, center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.479);
+    display: inline-block; /*configura o backgrounk para ocupar somnte o redor do parágrafo*/
+    padding: 10px;
+}
+section#img1{
+    background-image: url(imagens/background001.jpg);
+   
+}
+section#img2{
+    background-image: url(imagens/background002.jpg);
+   
+}
+
+header a, footer a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
-header a:hover{
+header a:hover, footer a:hover{
     text-decoration: underline;
-}
-section.normal{
-    font-family: var(--fonte-padrao);
-    font-size: 2em;
-    padding-left: 20px;
-    margin: 100px 0px 100px 0px;
-}
-section.imagem#img1{ 
-    position: relative;
-    font-family: var(--fonte-padrao);
-    font-size: 2em;
-    padding-left: 20px;
-    background-color: green;
-    background-image: url(imagens/background001.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 700px;
-
-}
-    #img1 > p{
-    position: absolute;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.397);
-    border-radius: 5px;
-    padding: 10px;
-    top: 10%;
-    font-size: 1em;
-
-}
-section.imagem#img2{ 
-    position: relative;
-    font-family: var(--fonte-padrao);
-    font-size: 2em;
-    padding-left: 20px;
-    background-color: green;
-    background-image: url(imagens/background002.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 700px;
-
-}
-section.imagem#img2> p{
-    position: absolute;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.397);
-    border-radius: 5px;
-    padding: 10px;
-    top: 10%;
-    font-size: 1em;
 }
 footer{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 1px;
-}
-footer a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-footer a:hover{
-    text-decoration: underline;
-}
+    padding: 10px;}
