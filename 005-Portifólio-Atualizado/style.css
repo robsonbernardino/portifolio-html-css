@@ -6,6 +6,9 @@
     /* Inclui padding e borda dentro do tamanho definido */
     font-family: "Nunito Sans", sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: black;
