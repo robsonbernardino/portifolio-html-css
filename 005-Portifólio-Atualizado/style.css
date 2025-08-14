@@ -408,8 +408,7 @@ footer .borda {
 
     h2.titulo {
         font-size: 30px;
-        line-height: 30px;
-
+        line-height: 30px;        
     }
 
     /* CABEÇALHO */
@@ -419,6 +418,9 @@ footer .borda {
     }
     .btn-abrir-menu{
         display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
     }
 
     /* TOPO DO SITE */
