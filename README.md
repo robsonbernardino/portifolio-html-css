@@ -17,3 +17,6 @@ Estou aplicando na prática os conhecimentos adquiridos até agora como parte da
 
 🔗 [04 - Meu terceiro projeto feito sozinho em HTML/CSS](https://robsonbernardino.github.io/portifolio-html-css/004-desafio-curso-js/index.html
 )
+
+🔗 [05 - Portfólio Atualizado](https://robsonbernardino.github.io/portifolio-html-css/005-Portifólio-Atualizado/index.html/index.html
+)
