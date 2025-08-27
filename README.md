@@ -20,3 +20,6 @@ Estou aplicando na prática os conhecimentos adquiridos até agora como parte da
 
 🔗 [05 - Portfólio Atualizado](https://robsonbernardino.github.io/portifolio-html-css/005-Portifólio-Atualizado/index.html
 )
+
+🔗 [06 - Página Personalisa](https://robsonbernardino.github.io/portifolio-html-css/personalisa/index.html
+)
