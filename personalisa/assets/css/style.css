@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Story+Script&display=swap');
+
+
+
+/* ---------------- ROOT ---------------- */
+:root {
+    --font-logo: font-family: "Story Script", sans-serif;
+    font-size: 1.3em;
+}
+
+/* ---------------- RESET ---------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------- BODY ---------------- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    background-image: url("../imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+
+    padding: 20px;
+    /* substitui margin: 20px */
+    overflow-x: hidden;
+    /* evita rolagem lateral */
+}
+
+/* ---------------- TITULOS ---------------- */
+h1 {
+    font-size: 3em;
+}
+
+/* ---------------- TOPO ---------------- */
+.topo {
+    text-align: center;
+    color: slateblue;
+}
+
+/* ---------------- ICONES ---------------- */
+.insta,
+.whats {
+    padding: 10px;
+    width: 50px;
+}
+
+.whats {
+    width: 53px;
+    /* se for necessário mesmo */
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+/* ---------------- LOGO ---------------- */
+#logo {
+    margin: 20px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
+}
+
+/* ---------------- LINKS ---------------- */
+.links {
+    max-width: 500px;
+    margin: 10px auto 0;
+}
+
+.links a {
+    display: block;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto 10px;
+    color: slateblue;
+    max-width: 650px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
